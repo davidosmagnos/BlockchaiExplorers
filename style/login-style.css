@@ -9,21 +9,20 @@
 }
 
 .poster{
-    background-image: url(../images/mark.jpg);
+    background-image: url(../images/poster.jpg);
     height: 100vh;
     width: 50vw;
     background-size:cover;
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     display: flex;
-    justify-content: center;
     align-items: center;
     font-size: 35px;
     color: white;
     background-color: #4C8C8E;
 }
 .poster h1{
-    margin:.5em;
+    margin-left:1em;
 }
 
 .sign-up{
@@ -37,7 +36,10 @@
 }
 .sign-up h1{
     font-family: 'Roboto', sans-serif;
-    margin:4em 0 0 3em;
+    margin:1em 0 0 1.5em;
+    font-size: 60px;
+    /* background-color: red; */
+    width: fit-content;
 }
 
 .form{
@@ -55,7 +57,7 @@
     margin: 2em auto;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(37, 37, 37);
     font-size: 15px;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
@@ -76,7 +78,7 @@
     border-radius: 5px;
 }
 .fields button[type="submit"]:hover{
-    background-color: #8bf5f2;
+    background-color: #448b89;
 }
 
 .dropdown{
@@ -86,7 +88,7 @@
     margin: 2em auto;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(37, 37, 37);
     font-size: 15px;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
@@ -98,7 +100,7 @@
     height: 0;
     background-color: white;
     border: none;
-    border: 1px solid black;
+    border: 1px solid rgb(37, 37, 37);
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     outline: none;
