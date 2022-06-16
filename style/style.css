@@ -58,6 +58,11 @@ html{
     padding:10px;
     border-radius: 4px;
 }
+.button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+}
 .button:hover{
     background-color: #02a3ac;
     cursor: pointer;
@@ -176,7 +181,7 @@ html{
 .card-container-cont2 .card-logo{
     width: 7vw;
     height: 7vw;
-    margin-top: -3vw;
+    margin-top: -2vw;
 }
 .card-container-cont2 .card-title,.card-container-cont2 .description{
     text-align: center;
