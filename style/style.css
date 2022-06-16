@@ -77,6 +77,11 @@ html{
     position: relative;
 
 }
+.content1-left img{
+    width: 90%;
+    height: 105%;
+    
+}
 .content1-left button{
     border: none;
     background-color: #111827;
@@ -85,23 +90,31 @@ html{
     position: absolute;
     color:white;
     margin-top: 1.5em;
+    font-size: 1vw;
 }
 .content1-left button:hover{
     background-color: #3b4764;
 }
 .content1-right img{
     margin-left:2em;
+    width: 100%;
+    height: 100%;
     transform:scale(.8)
+}
+.par{
+    display: none;
 }
 .content1-left-text{
     max-width:20em;
     position:absolute;
-    left:5em;
-    top:10em;
     text-align: justify;
+    left:15%;
+    top:40%;
+    font-size: 1vw;
+    
 }
 .content1-left-text h1{
-    font-size: 40px;
+    font-size: 5vw;
     margin-bottom: 20px;
 }
 .content2{
