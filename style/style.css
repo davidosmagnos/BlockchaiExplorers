@@ -148,16 +148,17 @@ html{
     flex-direction: column;
 }
 .card-container-cont2 .card-logo{
-    width: 100px;
-    height: 100px;
-    margin-top: -20px;
+    width: 7vw;
+    height: 7vw;
+    margin-top: -3vw;
 }
 .card-container-cont2 .card-title,.card-container-cont2 .description{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 1.5vw;
+    font-size: 1.5vw;
 }
 .card-container-cont2 .description{
-    font-size: 14px;
+    font-size: 1.3vw;
 }
 .content3{
     padding-bottom:4em;
@@ -166,6 +167,7 @@ html{
     font-size: 40px;
     text-align: center;
     padding-top: 2em;
+    font-size: 5vw;
 }
 .card-container-cont3{
     width: 70vw;
@@ -192,7 +194,7 @@ html{
 }
 .card-container-cont3 .cards h3{
     margin-top: 2em;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 .content3 p{
     text-align: center;
@@ -201,7 +203,7 @@ html{
 }
 .quote{
     padding-top: 5em;
-    font-size: 20px!important;
+    font-size: 1.5vw!important;
     font-weight: bold;
     width: 40vw;
     margin:auto
@@ -246,6 +248,7 @@ html{
 
 .footer{
     height: 30vh;
+    font-size: 1.2vw;
 }
 .footer-content{
     width:80vw;
