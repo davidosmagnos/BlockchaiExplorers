@@ -102,9 +102,6 @@ html{
     height: 100%;
     transform:scale(.8)
 }
-.par{
-    display: none;
-}
 .content1-left-text{
     max-width:20em;
     position:absolute;
@@ -112,7 +109,36 @@ html{
     left:15%;
     top:40%;
     font-size: 1vw;
-    
+}
+.par{
+    display:none;
+    transition: .3s
+}
+.active{
+    display: block;
+    transition: .3s;
+}
+.page-button{
+    position: absolute;
+    width: 6vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+    left:20vw;
+    margin-top: 1.5em;
+}
+.indicator{
+    cursor: pointer;
+    width: .8vw;
+    height: .8vw;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+}
+.active-ind{
+    background-color: black;
 }
 .content1-left-text h1{
     font-size: 5vw;
