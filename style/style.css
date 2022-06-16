@@ -11,6 +11,7 @@ html{
     border-bottom: 1px solid #00C2CB;
     display: flex;
     height: 10vh;
+    align-items: center;
 }
 .nav a{
     color:black;
@@ -204,5 +205,76 @@ html{
     font-weight: bold;
     width: 40vw;
     margin:auto
-    
+}
+
+.content4{
+    background-color: #111827;
+    padding-bottom:4em;
+}
+
+.content4 h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 2em;
+    color:white;
+}
+
+.card-container-cont4{
+    width: 70vw;
+    height: 130vh;
+    margin:2em auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    row-gap: 40px;
+    column-gap: 30px;
+}
+
+.card-container-cont4 >.cards{
+    background-color: white;
+    border-radius: 8px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+}
+
+.contact-logo{
+    width:6vw;
+    height: 6vw;
+}
+
+.footer{
+    height: 30vh;
+}
+.footer-content{
+    width:80vw;
+    height:20vh;
+    border-top:1px solid #00C2CB;
+    margin:5em auto 0;
+    padding:2em;
+    display: flex;
+    flex-direction: column;
+}
+.footer-content .footer-nav{
+    list-style: none;
+    display: flex;
+    gap:1.5em;
+    justify-content: center;
+}
+.footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #111827;
+}
+.footer-nav-item{
+    padding:5px;
+    border-radius: 4px;;
+}
+.footer-nav-item:hover{
+    background-color: rgb(236, 236, 236);
+}
+.copyrights{
+    text-align: center;
+    padding-top: 2em;
 }
