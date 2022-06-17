@@ -38,11 +38,12 @@
 }
 .logo{
     display:flex;
-    justify-content: center;
+    align-items: center;
     padding-top:2em ;
+    flex-direction: column;
 }
 .menu-logo{
-    width:4vw
+    width:4vw;
 }
 .links{
     display: flex;
@@ -52,7 +53,7 @@
     padding-top: 2em;
 }
 .nav-item{
-    padding:.5em;
+    padding:1em;
     cursor: pointer;
     width: 100%;
     transition: .1s ease-in;
