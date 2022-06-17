@@ -4,9 +4,6 @@
     gap:5vw;
     margin-top: 3vw;
 }
-.title{
-    padding: 1em 0 2em 1em;
-}
 .content-box{
     width: 65vw;
     height:90vh;
@@ -27,11 +24,21 @@
 }
 .search{
     width: 63vw;
-    height: 4vh;
+    height: 6vh;
     margin-left: 5vw;
     padding:.3em;
     border: 1px solid #111827;
 }
+.search-button{
+    width: 2.5em;
+    height: 2.5em;
+    position:relative;
+    left:-3em;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 .overview{
     height: 90vh;
     width: 20vw;
