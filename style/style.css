@@ -141,6 +141,7 @@ html{
     border-radius: 50%;
     background-color: white;
     border: 1px solid black;
+    transition: .3s;
 }
 .active-ind{
     background-color: black;
