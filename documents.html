@@ -72,6 +72,26 @@
     <div class="main-cont">
         <div class="department">
             <h2 class="department-title">Department 1</h2>
+            <div class="filters">
+                <select name="sort" class="sort">
+                    <option value="" disabled selected hidden>Sort by</option>
+                    <option value="alphabetical">Alphabetical</option>
+                    <option value="date">Date Modified</option>
+                    <optgroup label="Document Type">
+                        <option value="public">Public</option>
+                        <option value="internal">internal</option>
+                        <option value="confidential">Confidential</option>
+                    </optgroup>
+                </select>
+                <select name="status" class="status">
+                    <option value="" disabled selected hidden>Status</option>
+                    <option value="accepted">Accepted</option>
+                    <option value="pending">Pending</option>
+                    <option value="progress">In Progress</option>
+                    <option value="rejected">Rejected</option>
+                    <option value="approval">For Approval</option>
+                </select>
+            </div>
             <div class="department-cards-cont">
                 <div class="department-cards"></div>
                 <div class="department-cards"></div>

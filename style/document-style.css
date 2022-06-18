@@ -32,6 +32,12 @@
 }
 .department-title{
     padding: 1em 0 .5em 4em;
+    width:63vw;
+    display: inline-block;
+}
+.filters{
+    display: inline-flex;
+    gap:1em;
 }
 .department-cards-cont{
     width:75vw;

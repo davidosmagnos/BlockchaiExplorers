@@ -13,7 +13,6 @@
     display: flex;
     gap:3em;
     flex-wrap: wrap;
-    position: relative;
 }
 .content-box::-webkit-scrollbar{
     width: 10px;
