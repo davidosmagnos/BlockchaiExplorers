@@ -13,6 +13,7 @@
     display: flex;
     gap:3em;
     flex-wrap: wrap;
+    position: relative;
 }
 .content-box::-webkit-scrollbar{
     width: 10px;
@@ -51,6 +52,15 @@
     background-color: #E5E7EB;
     border: 1px solid #111827;
     border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+}
+.card-drpdwn{
+    width: 90%;
+    color: #111827;
 }
 
 #create-card{
@@ -66,6 +76,13 @@
     height: 5vw;
     fill: #111827;
 }
+.create-card{
+    position:fixed;
+    left:60vw;
+    bottom:4vw;
+    background-color: white;
+}
+
 
 
 
