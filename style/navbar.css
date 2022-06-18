@@ -52,6 +52,11 @@
     align-items: center;
     padding-top: 2em;
 }
+.links a{
+    text-decoration: none;
+    color:#111827;
+    width: 100%;
+}
 .nav-item{
     padding:1em;
     cursor: pointer;
